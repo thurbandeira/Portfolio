@@ -22,3 +22,26 @@ const trackPrevious = (el) => {
 };
 
 trackPrevious(switcher);
+
+let lastScrollTop = 0;
+const topBar = document.querySelector('.top-bar-wrapper');
+
+window.addEventListener("scroll", () => {
+  const currentScroll = window.pageYOffset || document.documentElement.scrollTop;
+
+  if (currentScroll > lastScrollTop) {
+    topBar.classList.add("hide");
+  } else {
+    topBar.classList.remove("hide");
+  }
+
+  lastScrollTop = currentScroll <= 0 ? 0 : currentScroll;
+});
+
+  const scrollBtn = document.getElementById("scrollTopBtn");
+  window.addEventListener("scroll", () => {
+    scrollBtn.style.display = window.scrollY > 300 ? "block" : "none";
+  });
+
+
+

@@ -1,0 +1,79 @@
+
+/* Loader adaptado para o canto superior direito */
+.loader {
+  position: absolute;
+  top: relative;
+  left: 200px;
+  width: 2.2em;
+  height: 2.2em;
+  background-color: var(--c-bg);
+  border-radius: 50px;
+  transform-origin: center;
+  transition: 1s;
+  box-shadow: inset 0px 0px 10px var(--c-action),
+              inset 5px 5px 12px color-mix(in srgb, var(--c-action) 60%, transparent),
+              inset 8px 8px 1px color-mix(in srgb, var(--c-action) 50%, transparent),
+              0px 0px 1px color-mix(in srgb, var(--c-action) 40%, transparent);
+  animation: 1.2s linear infinite first682;
+  z-index: 1001;
+}
+
+.loader div {
+  width: inherit;
+  height: inherit;
+  position: absolute;
+}
+
+#first, #second, #third {
+  transform: rotate(90deg);
+}
+
+#first::before,
+#second::before,
+#third::before,
+.loader::after {
+  --width: 1em;
+  --height: 1em;
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: calc(50% - var(--width)/2);
+  width: 1em;
+  height: 1em;
+  background-color: var(--c-action);
+  box-shadow: inset 5px 5px 10px color-mix(in srgb, var(--c-action) 60%, transparent),
+               0px 0px 2px var(--c-content);
+  border-radius: 50px;
+}
+
+#first::before {
+  animation: 0.8s ease-in 0s infinite jump2;
+}
+
+#second::before {
+  animation: 1.5s ease-in 0s infinite jump2;
+}
+
+#third::before {
+  animation: 1.6s ease-in 0s infinite jump2;
+}
+
+.loader::after {
+  animation: 1.2s ease-in 1s alternate infinite jump2;
+}
+
+@keyframes first682 {
+  0%   { transform: rotate(0deg); }
+  25%  { transform: rotate(90deg); }
+  50%  { transform: rotate(180deg); }
+  75%  { transform: rotate(270deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes jump2 {
+  0%   { top: 100%; }
+  25%  { top: 230%; }
+  50%  { top: 100%; }
+  75%  { height: 0.6em; }
+  100% { height: 1em; }
+}

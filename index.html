@@ -1,14 +1,30 @@
 <html lang="pt-BR">
 <head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Liquid Glass Article</title>
-  <link rel="stylesheet" href="styles/liquid.css">
+  <title>A. Bandeira</title>
   <link rel="stylesheet" href="styles/main.css">
+  <script src="scripts/main.js" type="module"></script>
 </head>
-<body>
+<body id="topo">
+<div class="top-bar-wrapper">
+  <div class="logo">
+  <a href="#contact">Bandeira<span class="dot">._</span></a>
+</div>
+  <nav class="navbar">
+    <ul>
+      <li><a href="#inicio" data-number="// 01">início</a></li>
+      <li><a href="#projects" data-number="// 02">projetos</a></li>
+      <li><a href="#servicos" data-number="// 03">serviços</a></li>
+      <li><a href="#skills" data-number="// 04">conhecimento</a></li>
+      <li><a href="#contact" data-number="// 05">contato</a></li>
+    </ul>
+  </nav>
 
-<fieldset class="switcher">
+  <div class="vertical-divider"></div>
+
+    <fieldset class="switcher">
   <legend class="switcher__legend">Choose theme</legend>
   <label class="switcher__option">
     <input class="switcher__input" type="radio" name="theme" value="light" c-option="1" checked />
@@ -49,42 +65,325 @@
       </filter>
     </svg>
   </div>
-</fieldset>
+  </fieldset>
+</div>
 
 <article class="article">
-  <div class="text-overlay">
-    <h1>Olá, eu sou Arthur Bandeira</h1>
-    <p>Desenvolvedor Web | Front‑end & Back‑end</p>
-    <p>
-      <a href="#about">Sobre</a> |
-      <a href="#projects">Projetos</a> |
-      <a href="#contact">Contato</a>
-    </p>
+    <div class="loader">
+  <div id="first">
+    <div id="second">
+      <div id="third"></div>
+    </div>
+  </div>
   </div>
 
-  <!-- Seção Sobre -->
-  <section id="about" class="content-section">
-    <h2>Sobre mim</h2>
-    <p></p>
-  </section>
+<section class="profile-box" id="inicio">
+  <div class="profile-avatar">
+    <img src="assets/images/mytwo.png" alt="Arthur Bandeira">
+  </div>
+  <div class="profile-content">
+    <p class="profile-tag">#OpenToWork</p>
+    <h1 class="profile-name">Arthur Bandeira</h1>
+    <h2 class="profile-role">Desenvolvedor Front-End & Back-End</h2>
+    <p class="profile-description">
+      Sou estudante de Análise e Desenvolvimento de Sistemas pela ETEC. Apaixonado por desenvolvimento web, design e ilustração. Trabalho com HTML, CSS, JavaScript e busco criar experiências modernas, responsivas e interativas.
+    </p>
+<a href="#projects" class="scroll-mouse">
+  <div class="mouse-shape">
+    <div class="wheel"></div>
+  </div>
+</a>
 
-  <section id="projects" class="content-section">
-    <h2>Projetos</h2>
+  </div>
+</section>
+
+  <section id="projects" class="content-section skills-section">
+    <h2 class="skills-title">Meus Projetos<span class="dot">._</span></a></h2>
+    <div class="card-container">
+    <div class="parent">
+  <div class="card">
+      <div class="content-box">
+          <span class="card-title">3D Card</span>
+          <p class="card-content">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+          </p>
+          <span class="see-more">See More</span>
+      </div>
+      <div class="date-box">
+          <span class="month">JUNE</span>
+          <span class="date">29</span>
+      </div>
+  </div>
+</div>
+          <div class="parent">
+  <div class="card">
+      <div class="content-box">
+          <span class="card-title">3D Card</span>
+          <p class="card-content">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+          </p>
+          <span class="see-more">See More</span>
+      </div>
+      <div class="date-box">
+          <span class="month">JUNE</span>
+          <span class="date">29</span>
+      </div>
+  </div>
+</div>
+  </section>
+   
+<section class="services-section skills-section" id="servicos">
+  <h2  class="skills-title">🚀 Serviços que Busco e Ofereço<span class="dot">._</span></a></h2>
+  <p class="section-subtitle">Desenvolvimento prático, focado em ganhar experiência. Estou aberto a parcerias, trocas e permutas!</p>
+
+  <div class="services-grid">
+    
+    <!-- HTML & CSS -->
+    <div class="service-card">
+      <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLWNvZGUteG1sLWljb24gbHVjaWRlLWNvZGUteG1sIj48cGF0aCBkPSJtMTggMTYgNC00LTQtNCIvPjxwYXRoIGQ9Im02IDgtNCA0IDQgNCIvPjxwYXRoIGQ9Im0xNC41IDQtNSAxNiIvPjwvc3ZnPg==" alt="HTML e CSS" class="service-icon" />
+      <h3 class="section-title">Criação de Interfaces</h3>
+      <p>Desenvolvimento de páginas responsivas com HTML e CSS, ideais para portfólios, currículos e sites institucionais simples.</p>
     </div>
-  </section>
 
-  <section id="contact" class="content-section">
-    <h2>Contato</h2>
+    <!-- JavaScript & TypeScript -->
+    <div class="service-card">
+      <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLWJsb2Nrcy1pY29uIGx1Y2lkZS1ibG9ja3MiPjxwYXRoIGQ9Ik0xMCAyMlY3YTEgMSAwIDAgMC0xLTFINGEyIDIgMCAwIDAtMiAydjEyYTIgMiAwIDAgMCAyIDJoMTJhMiAyIDAgMCAwIDItMnYtNWExIDEgMCAwIDAtMS0xSDIiLz48cmVjdCB4PSIxNCIgeT0iMiIgd2lkdGg9IjgiIGhlaWdodD0iOCIgcng9IjEiLz48L3N2Zz4=" alt="JavaScript TypeScript" class="service-icon" />
+      <h3>Funcionalidades Interativas</h3>
+      <p>Criação de menus, animações, sliders, dark mode e outros efeitos com JavaScript ou TypeScript em projetos front-end.</p>
+    </div>
 
-  </section>
+    <!-- React -->
+    <div class="service-card">
+      <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLWRuYS1pY29uIGx1Y2lkZS1kbmEiPjxwYXRoIGQ9Im0xMCAxNiAxLjUgMS41Ii8+PHBhdGggZD0ibTE0IDgtMS41LTEuNSIvPjxwYXRoIGQ9Ik0xNSAyYy0xLjc5OCAxLjk5OC0yLjUxOCAzLjk5NS0yLjgwNyA1Ljk5MyIvPjxwYXRoIGQ9Im0xNi41IDEwLjUgMSAxIi8+PHBhdGggZD0ibTE3IDYtMi44OTEtMi44OTEiLz48cGF0aCBkPSJNMiAxNWM2LjY2Ny02IDEzLjMzMyAwIDIwLTYiLz48cGF0aCBkPSJtMjAgOSAuODkxLjg5MSIvPjxwYXRoIGQ9Ik0zLjEwOSAxNC4xMDkgNCAxNSIvPjxwYXRoIGQ9Im02LjUgMTIuNSAxIDEiLz48cGF0aCBkPSJtNyAxOCAyLjg5MSAyLjg5MSIvPjxwYXRoIGQ9Ik05IDIyYzEuNzk4LTEuOTk4IDIuNTE4LTMuOTk1IDIuODA3LTUuOTkzIi8+PC9zdmc+" alt="React" class="service-icon" />
+      <h3>Componentes em React</h3>
+      <p>Construção de componentes com React, como cards, formulários e seções reutilizáveis em SPAs e landing pages modernas.</p>
+    </div>
 
-  <script type="module" src="scripts/gooey.js"></script>
-</body>
-</html>
+    <!-- Python -->
+    <div class="service-card">
+      <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLXdvcmtmbG93LWljb24gbHVjaWRlLXdvcmtmbG93Ij48cmVjdCB3aWR0aD0iOCIgaGVpZ2h0PSI4IiB4PSIzIiB5PSIzIiByeD0iMiIvPjxwYXRoIGQ9Ik03IDExdjRhMiAyIDAgMCAwIDIgMmg0Ii8+PHJlY3Qgd2lkdGg9IjgiIGhlaWdodD0iOCIgeD0iMTMiIHk9IjEzIiByeD0iMiIvPjwvc3ZnPg==" alt="Python" class="service-icon" />
+      <h3>Automatizações Simples</h3>
+      <p>Criação de scripts em Python para tarefas básicas como leitura de dados, organização de arquivos ou coleta de informações da web.</p>
+    </div>
+
+    <!-- Java -->
+    <div class="service-card">
+      <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLW1vbml0b3ItY29nLWljb24gbHVjaWRlLW1vbml0b3ItY29nIj48cGF0aCBkPSJNMTIgMTd2NCIvPjxwYXRoIGQ9Im0xNC4zMDUgNy41My45MjMtLjM4MiIvPjxwYXRoIGQ9Im0xNS4yMjggNC44NTItLjkyMy0uMzgzIi8+PHBhdGggZD0ibTE2Ljg1MiAzLjIyOC0uMzgzLS45MjQiLz48cGF0aCBkPSJtMTYuODUyIDguNzcyLS4zODMuOTIzIi8+PHBhdGggZD0ibTE5LjE0OCAzLjIyOC4zODMtLjkyNCIvPjxwYXRoIGQ9Im0xOS41MyA5LjY5Ni0uMzgyLS45MjQiLz48cGF0aCBkPSJtMjAuNzcyIDQuODUyLjkyNC0uMzgzIi8+PHBhdGggZD0ibTIwLjc3MiA3LjE0OC45MjQuMzgzIi8+PHBhdGggZD0iTTIyIDEzdjJhMiAyIDAgMCAxLTIgMkg0YTIgMiAwIDAgMS0yLTJWNWEyIDIgMCAwIDEgMi0yaDciLz48cGF0aCBkPSJNOCAyMWg4Ii8+PGNpcmNsZSBjeD0iMTgiIGN5PSI2IiByPSIzIi8+PC9zdmc+" alt="Java" class="service-icon" />
+      <h3>Aplicações de Aprendizado</h3>
+      <p>Criação de projetos em Java como sistemas de cadastro, simulações ou jogos simples para aprendizado e portfólio.</p>
+    </div>
+
+    <!-- MySQL -->
+    <div class="service-card">
+      <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLWJsZW5kLWljb24gbHVjaWRlLWJsZW5kIj48Y2lyY2xlIGN4PSI5IiBjeT0iOSIgcj0iNyIvPjxjaXJjbGUgY3g9IjE1IiBjeT0iMTUiIHI9IjciLz48L3N2Zz4=" alt="MySQL" class="service-icon" />
+      <h3>Banco de Dados Básico</h3>
+      <p>Modelagem e integração com MySQL para armazenar dados de contato, login ou conteúdos simples em sites ou sistemas.</p>
+    </div>
+
+    <!-- C# -->
+    <div class="service-card">
+      <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLXBhcmVudGhlc2VzLWljb24gbHVjaWRlLXBhcmVudGhlc2VzIj48cGF0aCBkPSJNOCAyMXMtNC0zLTQtOSA0LTkgNC05Ii8+PHBhdGggZD0iTTE2IDNzNCAzIDQgOS00IDktNCA5Ii8+PC9zdmc+" alt="C#" class="service-icon" />
+      <h3>Aplicações Desktop (C#)</h3>
+      <p>Desenvolvimento de sistemas simples com formulários em C#, voltado para aprender lógica e estruturação de interfaces locais.</p>
+    </div>
+
+    <!-- Geral / Permuta -->
+    <div class="service-card">
+      <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLWZpbmdlcnByaW50LWljb24gbHVjaWRlLWZpbmdlcnByaW50Ij48cGF0aCBkPSJNMTIgMTBhMiAyIDAgMCAwLTIgMmMwIDEuMDItLjEgMi41MS0uMjYgNCIvPjxwYXRoIGQ9Ik0xNCAxMy4xMmMwIDIuMzggMCA2LjM4LTEgOC44OCIvPjxwYXRoIGQ9Ik0xNy4yOSAyMS4wMmMuMTItLjYuNDMtMi4zLjUtMy4wMiIvPjxwYXRoIGQ9Ik0yIDEyYTEwIDEwIDAgMCAxIDE4LTYiLz48cGF0aCBkPSJNMiAxNmguMDEiLz48cGF0aCBkPSJNMjEuOCAxNmMuMi0yIC4xMzEtNS4zNTQgMC02Ii8+PHBhdGggZD0iTTUgMTkuNUM1LjUgMTggNiAxNSA2IDEyYTYgNiAwIDAgMSAuMzQtMiIvPjxwYXRoIGQ9Ik04LjY1IDIyYy4yMS0uNjYuNDUtMS4zMi41Ny0yIi8+PHBhdGggZD0iTTkgNi44YTYgNiAwIDAgMSA5IDUuMnYyIi8+PC9zdmc+" alt="Parcerias e Trocas" class="service-icon" />
+      <h3>Parcerias e Permutas</h3>
+      <p>Estou disponível para colaborar em projetos reais, aprender em equipe, trocar serviços ou contribuir com ideias e código.</p>
+    </div>
+
+  </div>
+</section>
   
+<section class="skills-section no-animate" id="skills">
+  <h2 class="skills-title">Conhecimento<span class="dot">._</span></a></h2>
+  <div class="button-container">
+
+    <!-- HTML -->
+    <button class="brutalist-button openai button-1">
+      <div class="openai-logo">
+        <img src="https://cdn.simpleicons.org/html5/E44D26" alt="HTML5" class="openai-icon">
+      </div>
+      <div class="button-text"><span>Linguagem</span><span>HTML</span></div>
+    </button>
+
+    <!-- CSS -->
+    <button class="brutalist-button openai button-1">
+      <div class="openai-logo">
+        <img src="https://cdn.simpleicons.org/css" alt="CSS3" class="openai-icon">
+      </div>
+      <div class="button-text"><span>Estilo</span><span>CSS</span></div>
+    </button>
+
+    <!-- JavaScript -->
+    <button class="brutalist-button openai button-1">
+      <div class="openai-logo">
+        <img src="https://cdn.simpleicons.org/javascript" alt="JavaScript" class="openai-icon">
+      </div>
+      <div class="button-text"><span>Script</span><span>JavaScript</span></div>
+    </button>
+
+    <!-- TypeScript -->
+    <button class="brutalist-button openai button-1">
+      <div class="openai-logo">
+        <img src="https://cdn.simpleicons.org/typescript/3178C6" alt="TypeScript" class="openai-icon">
+      </div>
+      <div class="button-text"><span>Script</span><span>TypeScript</span></div>
+    </button>
+
+    <!-- React -->
+    <button class="brutalist-button openai button-1">
+      <div class="openai-logo">
+        <img src="https://cdn.simpleicons.org/react/61DAFB" alt="React" class="openai-icon">
+      </div>
+      <div class="button-text"><span>Framework</span><span>React</span></div>
+    </button>
+
+    <!-- Python -->
+    <button class="brutalist-button openai button-1">
+      <div class="openai-logo">
+        <img src="https://cdn.simpleicons.org/python/3776AB" alt="Python" class="openai-icon">
+      </div>
+      <div class="button-text"><span>Linguagem</span><span>Python</span></div>
+    </button>
+
+    <!-- Java -->
+    <button class="brutalist-button openai button-1">
+      <div class="openai-logo">
+        <img src="assets/images/Java.png" alt="Java" class="openai-icon">
+      </div>
+      <div class="button-text"><span>Linguagem</span><span>Java</span></div>
+    </button>
+
+    <!-- MySQL -->
+    <button class="brutalist-button openai button-1">
+      <div class="openai-logo">
+        <img src="https://cdn.simpleicons.org/mysql/4479A1" alt="MySQL" class="openai-icon">
+      </div>
+      <div class="button-text"><span>Banco</span><span>MySQL</span></div>
+    </button>
+
+    <!-- C# -->
+    <button class="brutalist-button openai button-1">
+      <div class="openai-logo">
+        <img src="assets/images/CSharp.png" alt="CSharp" class="openai-icon">
+      </div>
+      <div class="button-text"><span>Linguagem</span><span>C#</span></div>
+    </button>
+
+    <h2 class="skills-title skills-section">Certificados<span class="dot">._</span></a></h2>
+    <div class="button-container">
+
+
+  </div>
+  </div>
+</section>
+
+<section class="skills-section no-animate" id="contact">
+    <h2 class="skills-title">Contato<span class="dot">._</span></a></h2>
+        <ul class="example-2">
+  <li class="icon-content">
+    <a
+      href="https://www.linkedin.com/in/arthurbandeirasilva/"
+      aria-label="LinkedIn"
+      data-social="linkedin"
+    >
+      <div class="filled"></div>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="16"
+        height="16"
+        fill="currentColor"
+        class="bi bi-linkedin"
+        viewBox="0 0 16 16"
+        xml:space="preserve"
+      >
+        <path
+          d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"
+          fill="currentColor"
+        ></path>
+      </svg>
+    </a>
+    <div class="tooltip">LinkedIn</div>
+  </li>
+  <li class="icon-content">
+  <a 
+    href="https://mail.google.com/mail/?view=cm&fs=1&to=arthurbandeirasilva09@gmail.com&su=Olá!&body=Estou entrando em contato pelo seu portfólio."
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Email"
+    data-social="email"
+  >
+    <div class="filled"></div>
+    <svg xmlns="http://www.w3.org/2000/svg"
+         width="16" height="16"
+         fill="currentColor"
+         class="bi bi-envelope-at"
+         viewBox="0 0 16 16"
+         xml:space="preserve">
+        <path d="M2 2a2 2 0 0 0-2 2v8.01A2 2 0 0 0 2 14h5.5a.5.5 0 0 0 0-1H2a1 1 0 0 1-.966-.741l5.64-3.471L8 9.583l7-4.2V8.5a.5.5 0 0 0 1 0V4a2 2 0 0 0-2-2zm3.708 6.208L1 11.105V5.383zM1 4.217V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v.217l-7 4.2z"/>
+      <path d="M14.247 14.269c1.01 0 1.587-.857 1.587-2.025v-.21C15.834 10.43 14.64 9 12.52 9h-.035C10.42 9 9 10.36 9 12.432v.214C9 14.82 10.438 16 12.358 16h.044c.594 0 1.018-.074 1.237-.175v-.73c-.245.11-.673.18-1.18.18h-.044c-1.334 0-2.571-.788-2.571-2.655v-.157c0-1.657 1.058-2.724 2.64-2.724h.04c1.535 0 2.484 1.05 2.484 2.326v.118c0 .975-.324 1.39-.639 1.39-.232 0-.41-.148-.41-.42v-2.19h-.906v.569h-.03c-.084-.298-.368-.63-.954-.63-.778 0-1.259.555-1.259 1.4v.528c0 .892.49 1.434 1.26 1.434.471 0 .896-.227 1.014-.643h.043c.118.42.617.648 1.12.648m-2.453-1.588v-.227c0-.546.227-.791.573-.791.297 0 .572.192.572.708v.367c0 .573-.253.744-.564.744-.354 0-.581-.215-.581-.8Z"/>
+</svg>
+  </a>
+  <div class="tooltip">Gmail</div>
+</li>
+
+  <li class="icon-content">
+    <a href="https://www.github.com/thurbandeira" aria-label="GitHub" data-social="github">
+      <div class="filled"></div>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="16"
+        height="16"
+        fill="currentColor"
+        class="bi bi-github"
+        viewBox="0 0 16 16"
+        xml:space="preserve"
+      >
+        <path
+          d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"
+          fill="currentColor"
+        ></path>
+      </svg>
+    </a>
+    <div class="tooltip">GitHub</div>
+  </li>
+  <li class="icon-content">
+    <a
+      href="https://www.instagram.com/bandeirasx"
+      aria-label="Instagram"
+      data-social="instagram"
+    >
+      <div class="filled"></div>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="16"
+        height="16"
+        fill="currentColor"
+        class="bi bi-instagram"
+        viewBox="0 0 16 16"
+        xml:space="preserve"
+      >
+        <path
+          d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"
+          fill="currentColor"
+        ></path>
+      </svg>
+    </a>
+    <div class="tooltip">Instagram</div>
+  </li>
+</ul>
+  </section>
+
 </article>
 
-  <script src="scripts/main.js" type="module"></script>
-  
+<a href="#topo" id="scrollTopBtn" class="scroll-top-btn">
+  <svg width="24" height="24" fill="#c084fc" viewBox="0 0 24 24">
+    <path d="M12 4l-7 7h4v9h6v-9h4l-7-7z"/>
+  </svg>
+</a>
+
 </body>
 </html>
