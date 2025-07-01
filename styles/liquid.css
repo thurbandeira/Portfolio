@@ -313,9 +313,6 @@ body:has(input[value="dim"]:checked) {
   }
 }
 
-/* //////////////////////////////////////////
-/  Article Styles //////////////////////// */
-
 .article {
   display: flex;
   flex-direction: column;
@@ -344,11 +341,11 @@ h2 {
 }
 
 .hero h1:first-child {
-  margin-bottom: 0.2em; /* Reduz o espaço entre Arthur e Bandeira */
+  margin-bottom: 0.2em; 
 }
 
 .hero h1:last-child {
-  margin-top: 0; /* Garante que Bandeira não afaste mais ainda */
+  margin-top: 0; 
 }
 
 

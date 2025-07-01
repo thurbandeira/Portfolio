@@ -6,8 +6,8 @@
   align-items: center;
   text-align: center;
   height: 50vh;
-  padding: 3em 1em 1em; /* antes: 5em 1em 2em */
-  margin-bottom: 1em;   /* antes: 3em */
+  padding: 3em 1em 1em;
+  margin-bottom: 1em; 
 }
 
 .hero h1 {
@@ -118,7 +118,7 @@
   font-weight: 900;
   color: var(--c-content);
   margin: 0.2rem 0;
-  border-bottom: 4px solid var(--c-action); /* FAIXA EMBAIXO */
+  border-bottom: 4px solid var(--c-action); 
 }
 
 .profile-role {
@@ -134,17 +134,14 @@
   margin-bottom: 1.5rem;
 }
 
-/* From Uiverse.io by 0xnihilism */ 
 .button-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 4 colunas */
-  gap: 1.2rem; /* espaço entre os botões */
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 1.2rem;
   justify-items: center;
   padding: 1rem;
 }
 
-
-/* Common styles for both buttons */
 .brutalist-button {
   display: flex;
   flex-direction: column;
@@ -161,7 +158,6 @@
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
-/* Styles for the first button */
 .button-1 {
   background-color: var(--c-content);
   border: 3px solid var(--c-action);
@@ -218,7 +214,6 @@
   }
 }
 
-/* Hover effects */
 .brutalist-button:hover .openai-logo {
   transform: translateY(-30px);
 }
@@ -234,7 +229,6 @@
   margin-top: 8px;
 }
 
-/* Styles for the OpenAI logo and text */
 .openai-logo {
   display: flex;
   flex-direction: column;
@@ -281,7 +275,6 @@
   font-size: 16px;
 }
 
-/* Hover effects */
 .brutalist-button:hover .openai-logo {
   transform: translateY(-10px);
 }
@@ -298,7 +291,6 @@
   margin-top: 8px;
 }
 
-/* Animation for the OpenAI logo */
 @keyframes spin-and-zoom {
   0% {
     transform: rotate(0deg) scale(1);
@@ -327,7 +319,7 @@
 
 .skills-section {
   max-width: 1200px;
-  margin-bottom: 4rem; /* ou mais, se preferir */
+  margin-bottom: 4rem;
   padding: 1rem 2rem 3rem;
   background: color-mix(in srgb, var(--c-bg) 90%, transparent);
   border: 2px solid var(--c-action);
@@ -343,7 +335,7 @@
   margin-bottom: 2rem;
   display: inline-block;
   padding-bottom: 0.5rem;
-  border-bottom: 4px solid var(--c-action); /* FAIXA EMBAIXO */
+  border-bottom: 4px solid var(--c-action);
 }
 
 

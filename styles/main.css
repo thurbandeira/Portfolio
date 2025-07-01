@@ -119,7 +119,7 @@ body *:not(.no-animate):not(.no-animate *):is(
   button
 ) {
   opacity: 0;
-  margin-bottom: 4rem; /* ou mais, se preferir */
+  margin-bottom: 4rem; 
   animation: macosFadeIn 0.8s ease-out both;
 }
 
