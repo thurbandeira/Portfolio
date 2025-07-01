@@ -36,33 +36,6 @@ Bem-vindo ao meu portfólio pessoal! Este projeto foi criado para apresentar min
 | `GitHub Pages` | Deploy gratuito do site |
 | `VS Code`  | Editor principal |
 
----
-
-## 📁 Estrutura de Pastas
-
-├── index.html # Página principal
-├── certificados.html # Página de certificados com filtros
-├── assets/
-│ └── certificados/
-│ ├── img/ # Imagens dos certificados
-│ └── pdf/ # Certificados em PDF
-├── styles/
-│ ├── main.css # Importa todos os estilos
-│ ├── nav.css, hero.css, ... # CSS modularizado
-├── scripts/
-│ └── main.js # Scripts JS personalizados
-
-## 🧾 Commits organizados
-
-Todos os commits do projeto foram feitos com boas práticas, incluindo mensagens como:
-
-- `📜 Atualiza certificados.html com filtros e navbar`
-- `🎬 Adiciona animação de digitação`
-- `💄 Ajusta espaçamento do título`
-- `🔙 Adiciona botão voltar ao portfólio`
-
----
-
 ## 📬 Contato
 
 Caso queira entrar em contato:
