@@ -1,82 +1,82 @@
-# Portfólio Pessoal
+# 💼 Portfólio Interativo — Arthur Bandeira
 
-Este repositório contém o código-fonte do meu portfólio pessoal, desenvolvido em **HTML**, **CSS** e **JavaScript**, com foco em um design moderno, interativo e responsivo. O objetivo é apresentar minhas habilidades, projetos e informações de contato de forma clara e atraente.
+![Preview do Portfólio](./assets/images/preview1.png)
+![Preview do Portfólio](./assets/images/preview2.png)
 
----
+Bem-vindo ao meu portfólio pessoal! Este projeto foi criado para apresentar minhas habilidades, certificados e projetos como desenvolvedor Full Stack em formação. Tudo com um toque visual moderno, interativo e adaptado a múltiplas tecnologias.
 
-## 📋 Conteúdo
+## ✨ Funcionalidades
 
-1. [Visão Geral](#visão-geral)
-2. [Funcionalidades Principais](#funcionalidades-principais)
-3. [Tecnologias Utilizadas](#tecnologias-utilizadas)
-4. [Estrutura do Projeto](#estrutura-do-projeto)
-5. [Deploy](#deploy)
-6. [Autor](#autor)
+- 🎯 Apresentação pessoal com animação de digitação
+- 📚 Página de certificados interativa com filtros por tecnologia
+- 📂 Organização visual com cards 3D animados
+- 🌐 Layout responsivo e estilizado com CSS moderno
+- 🧠 Foco em tecnologias como HTML, CSS, JavaScript, Git, Java, React e MySQL
+- 🔙 Botão “Voltar ao Portfólio” em todas as páginas
 
----
+## 📸 Visual do Projeto
 
-## 👁️ Visão Geral
+![Preview do Portfólio](https://user-images.githubusercontent.com/seu-usuario/preview.png)
 
-O portfólio apresenta seções como "Sobre Mim", "Serviços", "Projetos" e "Contato"
-
-* **Design Dark Theme**: fundo escuro com elementos em destaque
-* **Animações Interativas**: partículas no cursor, efeito lava-lamp e shader WebGL de fundo
-* **Cards Flip**: três cards de projetos com efeito 3D ao passar o mouse
-* **Navegação Suave**: menu que aparece/esconde ao rolar a página
+> *Substitua a imagem acima por um print real do seu site para dar mais impacto visual.*
 
 ---
 
-## ✨ Funcionalidades Principais
+## 🚀 Acesse o Projeto
 
-* **Efeito de partículas** seguindo o cursor (implementado em JavaScript)
-* **Shader interativo** em canvas (WebGL)
-* **Cards de projetos** com animação de flip 3D (CSS 3D Transform)
-* **Barra de navegação responsiva** que reage ao scroll
-* **Links sociais** e QR Code de contato
-* **Seção de certificados** integrada via Notion
+- **🔗 Portfólio Online:** [thurbandeira.github.io/Portfolio](https://thurbandeira.github.io/Portfolio/)
+- **📑 Página de Certificados:** [thurbandeira.github.io/Portfolio/certificados.html](https://thurbandeira.github.io/Portfolio/certificados.html)
 
 ---
 
 ## 🛠️ Tecnologias Utilizadas
 
-* **HTML5**
-* **CSS3** (Flexbox, Grid, animações, custom properties)
-* **JavaScript (ES6+)**
-* **WebGL (Canvas Shader)**
-* **Particles.js** (biblioteca opcional)
-* **Notion Embed** para certificados
-
-## 📁 Estrutura do Projeto
-
-```
-myPort/
-│
-├── index.html       # Página principal
-├── styles/
-│   ├── styles.css   # Estilos globais
-│   └── animations.css # Animações e efeitos
-├── scripts/
-│   ├── main.js      # Lógica de navegação e interatividade
-│   ├── particles.js # Configuração do efeito de partículas
-│   └── shader.js    # Script WebGL de shader de fundo
-├── assets/
-│   ├── images/      # Imagens e ícones
-└── README.md        # Documentação do projeto
-```
-
-## 🌐 Deploy
-
-Para fazer o deploy, basta hospedar o diretório em serviços estáticos como:
-
-* GitHub Pages
-* Netlify
-* Vercel
+| Tecnologia | Finalidade |
+|------------|------------|
+| `HTML5`    | Estrutura das páginas |
+| `CSS3`     | Estilização moderna com animações e variáveis |
+| `JavaScript` | Interatividade (animações, filtros) |
+| `Git & GitHub` | Versionamento e hospedagem |
+| `GitHub Pages` | Deploy gratuito do site |
+| `VS Code`  | Editor principal |
 
 ---
 
-## 👤 Autor
+## 📁 Estrutura de Pastas
+/
+├── index.html # Página principal
+├── certificados.html # Página de certificados com filtros
+├── assets/
+│ └── certificados/
+│ ├── img/ # Imagens dos certificados
+│ └── pdf/ # Certificados em PDF
+├── styles/
+│ ├── main.css # Importa todos os estilos
+│ ├── nav.css, hero.css, ... # CSS modularizado
+├── scripts/
+│ └── main.js # Scripts JS personalizados
+---
 
-* **Arthur Bandeira**
-* E-mail: [arthurbandeirasilva09@gmail.com](mailto:arthurbandeirasilva09@gmail.com)
-* LinkedIn: [Arthur Bandeira Silva](https://linkedin.com/in/arthurbandeirasilva)
-* GitHub: [ThurBandeira](https://github.com/thurbandeira)
+## 🧾 Commits organizados
+
+Todos os commits do projeto foram feitos com boas práticas, incluindo mensagens como:
+
+- `📜 Atualiza certificados.html com filtros e navbar`
+- `🎬 Adiciona animação de digitação`
+- `💄 Ajusta espaçamento do título`
+- `🔙 Adiciona botão voltar ao portfólio`
+
+---
+
+## 📬 Contato
+
+Caso queira entrar em contato:
+
+- **LinkedIn:** [linkedin.com/in/arthurbandeirasilva](https://www.linkedin.com/in/arthurbandeirasilva)
+- **Email:** arthurbandeirasilva09@gmail.com
+
+---
+
+> Este projeto será expandido com mais seções, como “Projetos”, “Serviços” e integração com formulário de contato. Novas tecnologias serão adicionadas conforme avanço nos estudos.
+
+
