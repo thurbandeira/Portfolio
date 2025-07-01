@@ -1,8 +1,5 @@
 # 💼 Portfólio Interativo — Arthur Bandeira
 
-![Preview do Portfólio](./assets/images/preview1.png)
-![Preview do Portfólio](./assets/images/preview2.png)
-
 Bem-vindo ao meu portfólio pessoal! Este projeto foi criado para apresentar minhas habilidades, certificados e projetos como desenvolvedor Full Stack em formação. Tudo com um toque visual moderno, interativo e adaptado a múltiplas tecnologias.
 
 ## ✨ Funcionalidades
@@ -16,9 +13,8 @@ Bem-vindo ao meu portfólio pessoal! Este projeto foi criado para apresentar min
 
 ## 📸 Visual do Projeto
 
-![Preview do Portfólio](https://user-images.githubusercontent.com/seu-usuario/preview.png)
-
-> *Substitua a imagem acima por um print real do seu site para dar mais impacto visual.*
+ ![Preview do Portfólio](./assets/images/preview1.png)
+ ![Preview do Portfólio](./assets/images/preview2.png)
 
 ---
 
