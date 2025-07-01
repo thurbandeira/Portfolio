@@ -5,6 +5,7 @@
 @import url("loader.css");  
 @import url("card.css"); 
 @import url("services.css"); 
+@import url("certificados.css");
 
     .top-bar-wrapper {
   position: fixed;
@@ -190,4 +191,17 @@ body *:not(.no-animate):not(.no-animate *):is(
 
 html {
   scroll-behavior: smooth;
+}
+
+#cursor {
+  display: inline-block;
+  color: var(--c-action);
+  font-weight: bold;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0%   { opacity: 1; }
+  50%  { opacity: 0; }
+  100% { opacity: 1; }
 }
