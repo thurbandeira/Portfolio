@@ -43,7 +43,7 @@ Bem-vindo ao meu portfólio pessoal! Este projeto foi criado para apresentar min
 ---
 
 ## 📁 Estrutura de Pastas
-/
+
 ├── index.html # Página principal
 ├── certificados.html # Página de certificados com filtros
 ├── assets/
@@ -55,7 +55,6 @@ Bem-vindo ao meu portfólio pessoal! Este projeto foi criado para apresentar min
 │ ├── nav.css, hero.css, ... # CSS modularizado
 ├── scripts/
 │ └── main.js # Scripts JS personalizados
----
 
 ## 🧾 Commits organizados
 
